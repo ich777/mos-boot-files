@@ -1,0 +1,50 @@
+{
+  "interfaces": [
+    {
+      "name": "eth0",
+      "type": "ethernet",
+      "mode": null,
+      "interfaces": [],
+      "ipv4": [
+        {
+          "dhcp": true
+        }
+      ],
+      "ipv6": []
+    }
+  ],
+  "services": {
+    "ssh": {
+      "enabled": true
+    },
+    "samba": {
+      "enabled": false
+    },
+    "nmbd": {
+      "enabled": false
+    },
+    "nfs": {
+      "enabled": false,
+      "exports": []
+    },
+    "nut": {
+      "enabled": false
+    },
+    "iscsi_target": {
+      "enabled": false
+    },
+    "iscsi_initiator": {
+      "enabled": false
+    },
+    "tailscale": {
+      "enabled": false,
+      "update_check": false,
+      "tailscaled_params": null
+    },
+    "netbird": {
+      "enabled": false,
+      "update_check": false,
+      "netbird_service_params": null
+    }
+  }
+}

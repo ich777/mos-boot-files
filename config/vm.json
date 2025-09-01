@@ -1,0 +1,6 @@
+{
+  "enabled": false,
+  "directory": "/mnt/cache/system/libvirt",
+  "vdisk_directory": "/mnt/cache/vm",
+  "start_wait": "0"
+}

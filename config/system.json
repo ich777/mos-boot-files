@@ -1,0 +1,14 @@
+{
+  "hostname": "MOS",
+  "keymap": "de-latin1-nodeadkeys",
+  "timezone": "Europe/Vienna",
+  "ntp": {
+    "enabled": true,
+    "mode": "iburst",
+    "servers": [
+      "0.pool.ntp.org",
+      "1.pool.ntp.org"
+    ]
+  },
+  "global_spindown": "20"
+}

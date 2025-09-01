@@ -1,0 +1,6 @@
+{
+  "enabled": false,
+  "bridge": false,
+  "directory": "/mnt/cache/system/lxc",
+  "start_wait": "0"
+}

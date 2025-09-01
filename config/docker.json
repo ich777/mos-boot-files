@@ -1,0 +1,19 @@
+{
+  "enabled": false,
+  "directory": "/mnt/cache/system/docker",
+  "appdata": "/mnt/cache/appdata",
+  "docker_net": {
+    "mode": "ipvlan",
+    "config": []
+  },
+  "filesystem": "overlay2",
+  "start_wait": "0",
+  "update_check": {
+    "enabled": false,
+    "update_check_schedule": "0 1 * * *",
+    "auto_update": {
+      "enabled": false,
+      "auto_update_schedule": "0 2 * * SAT"
+    }
+  }
+}
