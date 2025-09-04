@@ -10,5 +10,10 @@
       "1.pool.ntp.org"
     ]
   },
+  "notification_sound": {
+    "startup": true,
+    "reboot": true,
+    "shutdown": true
+  },
   "global_spindown": "20"
 }
