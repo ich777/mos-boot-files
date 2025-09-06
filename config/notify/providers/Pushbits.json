@@ -1,0 +1,20 @@
+{
+  "enabled": false,
+  "user": false,
+  "token": "yourToken",
+  "url": "http://pushbits.yourserver.net/message?token={{.Token}}",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "title": "{{.Title}}",
+    "message": "{{.Message}}",
+    "priority": { "$number": "{{.Priority}}" }
+  },
+  "alert_mapping": {
+    "normal": 4,
+    "warning": 15,
+    "alert": 25
+  }
+}
