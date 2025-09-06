@@ -1,0 +1,21 @@
+{
+  "enabled": false,
+  "user": false,
+  "token": false,
+  "url": "https://discord.com/api/webhooks/123456789012345678/ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "method": "POST",
+  "headers": { "Content-Type": "application/json" },
+  "body": {
+    "embeds": [{
+      "title": "{{.Title}}",
+      "description": "{{.Message}}",
+      "color": {"$number": "{{.Color}}"}
+    }]
+  },
+  "alert_mapping": {},
+  "color_prio": {
+    "normal": "5763719",
+    "warning": "16776960",
+    "alert": "15158332"
+  }
+}
