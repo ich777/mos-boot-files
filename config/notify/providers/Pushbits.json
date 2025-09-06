@@ -13,7 +13,7 @@
     "priority": { "$number": "{{.Priority}}" }
   },
   "alert_mapping": {
-    "normal": 4,
+    "normal": 0,
     "warning": 15,
     "alert": 25
   }
