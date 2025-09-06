@@ -5,6 +5,12 @@ boot
 │   ├── docker.json
 │   ├── lxc.json
 │   ├── network.json
+│   ├── notify
+│   │   ├── ports.json
+│   │   ├── providers
+│   │   │   ├── Discord.json
+│   │   │   ├── Pushbits.json
+│   │   │   └── ...
 │   ├── pools.json
 │   ├── shares.json
 │   ├── system
