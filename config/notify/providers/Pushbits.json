@@ -12,9 +12,5 @@
     "message": "{{.Message}}",
     "priority": { "$number": "{{.Priority}}" }
   },
-  "alert_mapping": {
-    "normal": 0,
-    "warning": 15,
-    "alert": 25
-  }
+  "alert_mapping": {}
 }
