@@ -1,7 +1,7 @@
 {
   "enabled": false,
-  "directory": "/mnt/cache/system/docker",
-  "appdata": "/mnt/cache/appdata",
+  "directory": null,
+  "appdata": null,
   "docker_net": {
     "mode": "ipvlan",
     "config": []
