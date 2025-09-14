@@ -33,6 +33,7 @@ boot
 │   └── grub.cfg
 └── optional
     ├── drivers
+    ├── modprobe.d
     ├── packages
     ├── plugins
     └── scripts
