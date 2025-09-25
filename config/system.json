@@ -15,5 +15,10 @@
     "reboot": true,
     "shutdown": true
   },
-  "global_spindown": "20"
+  "global_spindown": "20",
+  "cpufreq": {
+    "governor": "ondemand",
+    "max_speed": 0,
+    "min_speed": 0
+  }
 }
