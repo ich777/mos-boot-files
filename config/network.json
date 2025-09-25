@@ -18,10 +18,10 @@
       "enabled": true
     },
     "samba": {
-      "enabled": false
+      "enabled": true
     },
     "nmbd": {
-      "enabled": false
+      "enabled": true
     },
     "nfs": {
       "enabled": false,
