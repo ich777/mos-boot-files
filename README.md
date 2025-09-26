@@ -12,6 +12,7 @@ boot
 │   │   │   ├── Pushbits.json
 │   │   │   └── ...
 │   ├── pools.json
+│   ├── remotes.json
 │   ├── shares.json
 │   ├── system
 │   │   ├── cron.json
