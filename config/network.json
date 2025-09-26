@@ -30,6 +30,9 @@
     "nut": {
       "enabled": false
     },
+    "remote_mounting": {
+      "enabled": false
+    },
     "iscsi_target": {
       "enabled": false
     },
