@@ -21,13 +21,14 @@ boot
 │   │   │   └── target.json
 │   │   ├── lxc
 │   │   │   └── default.conf
-│   │   └── nut
-│   │       ├── nut.conf
-│   │       ├── ups.conf
-│   │       ├── upsd.conf
-│   │       ├── upsd.users
-│   │       ├── upsmon.conf
-│   │       └── upssched.conf
+│   │   ├── nut
+│   │   │   ├── nut.conf
+│   │   │   ├── ups.conf
+│   │   │   ├── upsd.conf
+│   │   │   ├── upsd.users
+│   │   │   ├── upsmon.conf
+│   │   │   └── upssched.conf
+│   │   └── proxy.json
 │   ├── system.json
 │   └── vm.json
 ├── grub
