@@ -2,9 +2,11 @@
   "hostname": "MOS",
   "keymap": "de-latin1-nodeadkeys",
   "timezone": "Europe/Vienna",
-  "display_timeout": 30,
-  "display_powersave": true,
-  "display_powerdown": 60,
+  "display": {
+    "timeout": 30,
+    "powersave": true,
+    "powerdown": 60
+  },
   "ntp": {
     "enabled": true,
     "mode": "iburst",
