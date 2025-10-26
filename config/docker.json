@@ -8,6 +8,7 @@
   },
   "filesystem": "overlay2",
   "start_wait": "0",
+  "docker_options": "",
   "update_check": {
     "enabled": false,
     "update_check_schedule": "0 1 * * *",
