@@ -4,7 +4,7 @@
   "timezone": "Europe/Vienna",
   "display": {
     "timeout": 30,
-    "powersave": true,
+    "powersave": "on",
     "powerdown": 60
   },
   "ntp": {
