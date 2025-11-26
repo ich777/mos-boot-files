@@ -16,6 +16,7 @@ boot
 │   ├── shares.json
 │   ├── system
 │   │   ├── cron.json
+│   │   ├── hub.json
 │   │   ├── iscsi
 │   │   │   ├── initiator.json
 │   │   │   └── target.json
