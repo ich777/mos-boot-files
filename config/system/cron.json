@@ -1,5 +1,13 @@
 [
   {
+    "id": "1764234948752",
+    "name": "MOS Hub Update",
+    "schedule": "@reboot",
+    "command": "node /usr/local/bin/mos-api_cli hub:update > /dev/null 2>&1",
+    "enabled": false,
+    "scriptPath": null
+  },
+  {
     "id": "1764234948753",
     "name": "MOS Hub Update",
     "schedule": "15 7 * * *",
