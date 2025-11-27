@@ -1,3 +1,8 @@
-[
-  "https://github.com/s3ppo/docker_json_templates"
-]
+{
+  "enabled": true,
+  "initial_update": false,
+  "schedule": "15 7 * * *",
+  "repositories": [
+    "https://github.com/s3ppo/docker_json_templates"
+  ]
+}
