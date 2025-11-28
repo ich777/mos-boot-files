@@ -2,6 +2,7 @@
   "enabled": true,
   "initial_update": false,
   "schedule": "15 7 * * *",
+  "page_entries": 24,
   "repositories": [
     "https://github.com/s3ppo/docker_json_templates"
   ]
