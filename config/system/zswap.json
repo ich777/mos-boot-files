@@ -1,0 +1,5 @@
+{
+  "enabled": false,
+  "zram_devices": 0,
+  "devices": []
+}
