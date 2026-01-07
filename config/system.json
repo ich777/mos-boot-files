@@ -25,5 +25,19 @@
     "governor": "ondemand",
     "max_speed": 0,
     "min_speed": 0
+  },
+ "swapfile": {
+    "enabled": false,
+    "path": null,
+    "size": null,
+    "priority": -2,
+    "config": {
+      "zswap": false,
+      "shrinker": true,
+      "max_pool_percent": 20,
+      "compressor": "zstd",
+      "zpool": "zsmalloc",
+      "accept_threshold_percent": 90
+    }
   }
 }
