@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "user": false,
+  "token": "TOKEN",
+  "url": "https://your.yourserver.net/message?token={{.Token}}",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "title": "{{.Title}}",
+    "message": "{{.Message}}",
+    "priority": { "$number": "{{.Priority}}" }
+  },
+  "alert_mapping": {
+    "normal": 3,
+    "warning": 6,
+    "alert": 9
+  },
+  "color_mapping": false
+}
