@@ -24,8 +24,7 @@
       "enabled": true
     },
     "nfs": {
-      "enabled": false,
-      "exports": []
+      "enabled": false
     },
     "nut": {
       "enabled": false
