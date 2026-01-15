@@ -1,4 +1,26 @@
-### Boot drive structure:
+# MOS Boot files
+
+This repository contains the **boot configuration files and templates** used by MOS.
+
+The files in this repository are **packaged by the MOS Releases repository** into
+ZIP archives or VM image and are extracted onto a USB drive during installation
+or installed directly into the VM image.
+
+---
+
+## Overview
+
+The contents of this repository define the **initial and persistent configuration**
+of a MOS system, including container settings, networking, storage, virtualization,
+notifications, and system services.
+
+This repository does **not** contain executable binaries.  
+It consists solely of configuration files, templates, and directory structure
+required for MOS Boot media.
+
+---
+
+## Boot Drive Structure
 ```
 boot
 ├── config
