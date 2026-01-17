@@ -18,9 +18,10 @@
       "enabled": true
     },
     "samba": {
-      "enabled": true
+      "enabled": true,
+      "workgroup": "WORKGROUP"
     },
-    "nmbd": {
+    "samba_discovery": {
       "enabled": true
     },
     "nfs": {
