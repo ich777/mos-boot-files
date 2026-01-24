@@ -23,8 +23,8 @@
   "global_spindown": "20",
   "cpufreq": {
     "governor": "ondemand",
-    "max_speed": 0,
-    "min_speed": 0
+    "max_speed": null,
+    "min_speed": null
   },
  "swapfile": {
     "enabled": false,
